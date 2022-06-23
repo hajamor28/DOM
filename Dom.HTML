@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style> 
+    .red{
+        color: yellowgreen;
+    }
+    
+    </style>
+
+    <title>Shopping</title>
 </head>
 <body>
+    <header>
+        <h2> Shopping Cart </h2>
+    </header>
     
+<section class="Shopping">
 
-
-<div class="img" id="">
-<img src="https://karadarshop.com/27578/ritter-sport-milk-chocolate-with-praline-filling-ritter-sport.jpg" width="200px"><br>
-<img src="https://media.carrefour.fr/medias/5d30711bf3cc30d58ceda9d062eb7b6d/p_540x540/7622210995087-photosite-20210913-174929-0.jpg" width="150px"><br>
-<img src="https://images.sweetauthoring.com/product/85903.png " width="200px"><br>
+<div class="img" >
+    <button class="delete-btn" type="button">X</button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg>    
+<img  class="prod1" src="https://world-fr.openfoodfacts.org/images/products/356/007/047/2918/front_fr.81.full.jpg">
+<span class="description">BIO Noir Eclat d'Amande </span>
+<button class="plus-btn" type="button">+</button>
+<span class="Quantity">1</span>
+<button class="moins-btn" type="button">-</button>
+<span class="prix unitaire">10 </span>
+<span class="amount">Amount TND:</span>
 </div>
+<hr>
+<div class="item">
+    <button class="delete-BTN" type="button">X</button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg>    
+    <i class="circle-heart"></i>
+    <img class="prod2" src="https://media.auchan.fr/MEDIASTEP132239321_1500x1500/B2CD/">
+    <span class="description">CHOCOLAT & NOISETTES </span>
+    <button class="plus-btn" type="button">+</button>
+    <span class="Quantity">1</span>
+<button class="moins-btn" type="button">-</button>
+<span class="prix unitaire">20 </span>
+
+</div>
+<hr>
+<div class="item">
+    <button class="delete-BTN" type="button">X</button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg>    
+    <i class="circle-heart"></i>
+    <img class="prod3" src="https://i.pinimg.com/originals/89/8c/fb/898cfbc67bc648df4ea704dfdca26982.jpg">
+    <span class="description">PRALINETTE </span>
+    <button class="plus-btn" type="button">+</button>
+    <span class="Quantity">1</span>
+<button class="moins-btn" type="button">-</button>
+<span class="prix unitaire">30 </span>
+    </div>
+
+</div>
+</section>
+<span id="TP"> Totale prix = <span id="Totale">60</span>
+
+<script src="./Dom.JS"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
